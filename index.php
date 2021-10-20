@@ -81,7 +81,6 @@ function printResults($results) {
     $rows = $results->getRows();
     $sessions = $rows[0][0];
 
-    // Print the results.
     print "First view (profile) found: $profileName\n";
     print "Total sessions: $sessions\n";
   } else {
